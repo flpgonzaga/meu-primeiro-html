@@ -1,12 +1,12 @@
-h2 {
-    background-color: #009900;
+h3 {
+    background-color: #303030;
     color: #ffffff;
 }
 
 p {
-    font-size: 12px;
-    width: 100em; /* atribui n vezes o tamanho da fonte */
-    height: 10%; /* relativo ao tamanho da tela */
+    font-size: 16px;
+    /*width: 100em; /* atribui n vezes o tamanho da fonte */
+    /*height: 10%; /* relativo ao tamanho da tela */
 }
 
 .fundoAmarelo { /* . para referenciar classes */
