@@ -1,0 +1,20 @@
+h2 {
+    background-color: #009900;
+    color: #ffffff;
+}
+
+p {
+    font-size: 12px;
+    width: 100em; /* atribui n vezes o tamanho da fonte */
+    height: 10%; /* relativo ao tamanho da tela */
+}
+
+.fundoAmarelo { /* . para referenciar classes */
+    background-color: yellow;
+    color: black;
+}
+
+#tituloH6generico { /* # para referenciar um id */
+    background-color: blue;
+    color: white;
+}

@@ -1,19 +1,19 @@
 <!DOCTYPE html>
+
 <html>
 
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <!-- link para download dinamico do framework bootstrap, antes da referencia ao CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-        <link rel="stylesheet" href="main.css">        
+        <link rel="stylesheet" href="../main.css">
+        
+        <title>Artigo #2 - Mais um artigo</title>
 
-        <title>Meu primeiro HTML</title>
     </head>
 
     <body>
-
+        
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
@@ -21,8 +21,8 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarMenu">
                     <ul class="navbar-nav">
-                        <li><a class="nav-link active" href="/">Home</a></li>
-                        <li><a class="nav-link" href="/page_blog/">Blog</a></li>
+                        <li><a class="nav-link" href="../">Home</a></li>
+                        <li><a class="nav-link active" href="/page_blog/">Blog</a></li>
                         <li><a class="nav-link" href="/page_projects/">Projetos</a></li>
                         <li><a class="nav-link" href="/page_contacts/">Contato</a></li>
                     </ul>
@@ -32,35 +32,14 @@
 
         <div class="container">
             
-            <h1 class="text-center">Esse é um título h1</h1>
-            <h2>Esse é um título h2</h2>
-            <h3>Esse é um título h3</h3>
-            <h4 class="fundoAmarelo">Esse é um título h4</h4>
-            <h5 class="fundoAmarelo text-center">Esse é um título h5</h5> <!-- uma segunda classe do bootstrap -->
-            <h6 id="tituloH6generico">Esse é um título h6</h6>
+            <h1 class="title">Artigo #2 - Mais um artigo</h1>
+            
+            <p>22 de Janeiro de 2021</p>
+            <hr>
 
-            <p>Esse é um parágrafo, para textos longos.
-            <br>Depois de uma quebra de linha, palavras com <em>ênfase</em> e com <strong>strong</strong>.
-            <br>E depois uma <span class="text-warning">frase dentro de um span</span>.</p>
-            
+            <p>Segundo artigo do blog.</p>
 
-            <br>        
-            <button>um botão</button>
-            <button> outro <em>ao lado</em></button>
-            
-            <br><br>
-            <button>botão <strong>abaixo</strong></button>
-            
-            <br>        
-            <h2>Uma foto offline</h2>
-            <img src="../meu-primeiro-html/assets_images/perfil.jpg" alt="exemplo de foto offline">
-            
-            <br>
-            <h2>Uma foto online</h2>
-            <img src="https://media-exp1.licdn.com/dms/image/C4D1BAQEkM5j2353a8g/company-background_10000/0/1601325707143?e=2159024400&v=beta&t=J2Ni3obPwjR2_hA2_mHITArMZYsNBISE9ii2lU1o7VM" alt="exemplo de foto offline">
-        
         </div>
-
 
         <!-- scripts js do framework bootstrap -->        
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
