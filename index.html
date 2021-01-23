@@ -3,8 +3,8 @@
 
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
+        <!-- meta para bootstrap responsivo mobile -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">        
         <!-- link para download dinamico do framework bootstrap, antes da referencia ao CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
         <link rel="stylesheet" href="../meu-primeiro-html/css/style.css">        
@@ -14,29 +14,31 @@
 
     <body>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarMenu">
-                    <ul class="navbar-nav"> 
-                        <li><a class="nav-link active" href="../meu-primeiro-html/">Home</a></li>
-                        <li><a class="nav-link" href="../meu-primeiro-html/pages/blog/">Blog</a></li>
-                        <li><a class="nav-link" href="../meu-primeiro-html/pages/projects/">Projetos</a></li>
-                        <li><a class="nav-link" href="../meu-primeiro-html/pages/contacts/">Contato</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
         <div class="container">
+
+            <div class="header">
+                <h1 class="text-center">FELIPE GONZAGA DA SILVA</h1>
+                <h6 class="text-center">LATAM Sales Operations Manager</h6>
+                <h6 class="text-center">Master in Business Intelligence</h6><br>
+            </div>
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarMenu">
+                        <ul class="navbar-nav"> 
+                            <li><a class="nav-link active" href="../meu-primeiro-html/">Home</a></li>
+                            <li><a class="nav-link" href="../meu-primeiro-html/pages/blog/">Blog</a></li>
+                            <li><a class="nav-link" href="../meu-primeiro-html/pages/projects/">Projetos</a></li>
+                            <li><a class="nav-link" href="../meu-primeiro-html/pages/contacts/">Contato</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>                                
             
-            <h1 class="text-center">FELIPE GONZAGA DA SILVA</h1>
-            <h6 class="text-center">LATAM Sales Operations Manager</h6>
-            <h6 class="text-center">Master in Business Intelligence</h6><br>
-            
-            <p>
+            <br><p>
                 Strategic-thinking and results-driven professional with 12+ years experience 
                 in the IT environment. Interested in markets and economics, business models innovation, 
                 advanced and predictive analytics, cloud-based solutions and transformation through 
@@ -144,19 +146,9 @@
         
         </div>
 
-        <br><br><div class="container">
-            <h3>Teste Databox</h3><br>        
-            <div style="padding:63% 0 0 0; position:relative;">
-                <iframe src="https://app.databox.com/datawall/e9aabdd4c7e7632b0926330c9aedfd3b05f85f9ee?i" style="position:absolute; top:0; left:0; width:100%; height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-            </div>
-        </div>
-        
-        <br><br><div class="container">
-            <h3>Teste Power BI</h3><br>        
-            <div style="padding:63% 0 0 0; position:relative;">
-                <iframe src="https://app.powerbi.com/reportEmbed?reportId=3430fdf1-175e-419b-ba3e-ace118793f17&autoAuth=true&ctid=29401e7e-43f2-4ae1-bdd6-ec82295b8754&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLWJyYXppbC1zb3V0aC1iLXByaW1hcnktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQvIn0%3D" style="position:absolute; top:0; left:0; width:100%; height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-            </div>
-        </div>
+        <footer class="footer">            
+            <small>Copyright © 2021 - Todos os direitos reservados</small>
+        </footer>
 
 
         <!-- scripts js do framework bootstrap -->        
@@ -167,3 +159,54 @@
     </body>
 
 </html>
+
+<!--
+
+<body>
+
+<div class="header">
+  <h1>My Website</h1>
+  <p>A <b>responsive</b> website created by me.</p>
+</div>
+
+<div class="navbar">
+  <a href="#" class="active">Home</a>
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#" class="right">Link</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>About Me</h2>
+    <h5>Photo of me:</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    <h3>More Text</h3>
+    <p>Lorem ipsum dolor sit ame.</p>
+    <div class="fakeimg" style="height:60px;">Image</div><br>
+    <div class="fakeimg" style="height:60px;">Image</div><br>
+    <div class="fakeimg" style="height:60px;">Image</div>
+  </div>
+  <div class="main">
+    <h2>TITLE HEADING</h2>
+    <h5>Title description, Dec 7, 2017</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>Some text..</p>
+    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <br>
+    <h2>TITLE HEADING</h2>
+    <h5>Title description, Sep 2, 2017</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>Some text..</p>
+    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>
+-->
