@@ -5,10 +5,10 @@
 
 /* Header/logo Title */
 .header {
-    padding: 80px;
+    padding: 30px;
     text-align: center;
-    background: #1abc9c;
-    color: white;
+    background: #303030;
+    color: #ffffff;
   }
   
 /* Increase the font size of the heading */
@@ -47,11 +47,11 @@
     color: black;
 }
 
-/* Active/current link 
+/* Active/current link  */
 .navbar a.active {
-    background-color: #666;
+    background-color: #ddd;
     color: white;
-}*/
+}
 
 /* Column container */
 .row {  
