@@ -1,7 +1,7 @@
-/* Style all doc 
+/* Style all doc  */
 * {
     box-sizing: border-box;
-}*/
+}
 
 /* Header/logo Title */
 .header {
@@ -72,6 +72,13 @@
     padding: 20px;
 }
 
+.columns {
+    /*-ms-flex: 70%; /* IE10 */
+    flex: 33,33%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
 /* Fake image, just for this example */
 .fakeimg {
     background-color: #aaa;
@@ -120,36 +127,26 @@ p {
     /*height: 10%; /* relativo ao tamanho da tela */
 }
 
-/*
-.row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
+
+/* Container for skill bars */
+.bar {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
 }
   
-.column {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
+.skills {
+    text-align: left; /* Right-align text */
+    padding-top: 5px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: white; /* White text color */
 }
 
-/*
-.header {
-    padding: 30px;
-    text-align: center;
-    background: #c5c5c5;
-    color: black;
-    font-size: 30px;
-}
+.english {width: 85%; background-color: #808080;}
+.spanish {width: 96%; background-color: #808080;}
+.portuguese {width: 100%; background-color: #808080;}
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color:#c5c5c5;
-    color: black;
-    text-align: center;
-}*/
+.leadership {width: 83%; background-color: #808080;}
+.creativity {width: 92%; background-color: #808080;}
+.problemsolving {width: 96%; background-color: #808080;}
+.teamwork {width: 89%; background-color: #808080;}
+.presentation {width: 83%; background-color: #808080;}
